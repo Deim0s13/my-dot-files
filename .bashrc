@@ -61,9 +61,6 @@ command -v lsd > /dev/null && alias tree='lsd --tree'
 command -v bat > /dev/null && alias cat='bat --pager=never'
 command -v bat > /dev/null && alias cat='bat'
 
-### Add new line before prompt
-PROMPT_COMMAND="PROMPT_COMMAND=echo"
-
 ### Custom prompt with icon and colours - Like zsh with powerlevel10k
 OS_ICON=
 PS1="\n \[\033[0;34m\]╭─\[\033[0;31m\]\[\033[0;37m\]\[\033[41m\] $OS_ICON \[\033[0;34m\]\[\033[44m\]\[\033[0;30m\]\[\033[44m\] \w \[\033[0m\]\[\033[0;34m\] \n \[\033[0;34m\]╰ \[\033[1;36m\]\$ \[\033[0m\]"
